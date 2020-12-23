@@ -1,6 +1,6 @@
 {
   "name": "@hyper63/nano",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "bin": "./cli.js",
   "license": "MIT",
   "dependencies": {
