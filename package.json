@@ -1,7 +1,7 @@
 {
   "name": "@hyper63/nano",
   "version": "1.0.2",
-  "bin": "./cli.js",
+  "bin": { "hyper63": "./cli.js" },
   "license": "MIT",
   "dependencies": {
     "@hyper63/adapter-fs": "^1.0.4",
