@@ -2,7 +2,7 @@
   "name": "@hyper63/nano",
   "version": "1.0.0",
   "main": "index.js",
-  "bin": "node index.js",
+  "bin": "index.js",
   "license": "MIT",
   "dependencies": {
     "@hyper63/adapter-fs": "^1.0.4",
