@@ -1,0 +1,16 @@
+{
+  "name": "@hyper63/nano",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": "node index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@hyper63/adapter-fs": "^1.0.4",
+    "@hyper63/adapter-memory": "^1.1.2",
+    "@hyper63/adapter-minisearch": "^1.0.5",
+    "@hyper63/adapter-pouchdb": "^1.1.4",
+    "@hyper63/app-express": "^1.0.4",
+    "@hyper63/core": "^1.0.14",
+    "mkdirp": "^1.0.4"
+  }
+}
