@@ -3,7 +3,7 @@
 Local instance of hyper63
 
 ```
-npx @hyper63/nano
+npx @hyper63/dev
 ```
 
 > This command will store your data in `$HOME/.hyper63` 
@@ -13,7 +13,7 @@ npx @hyper63/nano
 If you prefer to store your data in another location:
 
 ```
-DATA_PATH=./data npx @hyper63/nano
+DATA_PATH=./data npx @hyper63/dev
 ``` 
 
 ## More information
