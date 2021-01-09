@@ -1,3 +1,5 @@
 #!/usr/bin/env node
-require('@hyper63/core')
+const config = require(__dirname + '/hyper63.config.js')
+require('@hyper63/core')(config)
+
 

@@ -1,7 +1,7 @@
 {
-  "name": "@hyper63/dev",
+  "name": "@hyper63/x",
   "version": "1.0.0",
-  "bin":"./cli.js",
+  "bin": "./cli.js",
   "license": "MIT",
   "dependencies": {
     "@hyper63/adapter-fs": "^1.0.4",
@@ -9,7 +9,7 @@
     "@hyper63/adapter-minisearch": "^1.0.5",
     "@hyper63/adapter-pouchdb": "^1.1.4",
     "@hyper63/app-express": "^1.0.4",
-    "@hyper63/core": "^1.0.14",
+    "@hyper63/core": "^1.2.0",
     "mkdirp": "^1.0.4"
   }
 }
