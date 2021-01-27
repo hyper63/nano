@@ -17,10 +17,10 @@
     crocks "^0.12.4"
     ramda "^0.27.1"
 
-"@hyper63/adapter-minisearch@^1.0.5":
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/@hyper63/adapter-minisearch/-/adapter-minisearch-1.0.5.tgz#2c86a78770370d022c193ebe42f9999a0fe418e1"
-  integrity sha512-xI+Upbt0c7Slxsk/CqWoCJEG1/KGz2dyOw29lGJvsGnpaeZauW6HWRbBEVocNCtOJxp/ITY2wONXqO7++xGXGQ==
+"@hyper63/adapter-minisearch@^1.0.7":
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/@hyper63/adapter-minisearch/-/adapter-minisearch-1.0.7.tgz#9bd7eaa5c26e6b2258703d055e9bcb4a4a99c92c"
+  integrity sha512-epmtHrcysHq10sE0+LVSwnwumeJldWCF6RivLMThAqAZQU20W2vcPMoDT7t3y3ddYSTYtCFvH5r8MHip0EvAuQ==
   dependencies:
     crocks "^0.12.4"
     minisearch "^3.0.2"
@@ -48,14 +48,14 @@
     mime "^2.4.6"
     multer "^1.4.2"
 
-"@hyper63/core@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@hyper63/core/-/core-1.2.0.tgz#e805117b7f2f4e79a14637bd287dc2edf3e0faf1"
-  integrity sha512-tgmfDzm8DOvIp56xSZYbe4dy0QAt9R9bFsUGN37Fka0RwuUTr2uYRyR0tis/x1ooTlWh8i4PitTMA1BJHzlqWg==
+"@hyper63/core@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@hyper63/core/-/core-1.2.1.tgz#a76d0527da401cc8b53554c0c3c922d989fd1fd0"
+  integrity sha512-WgA1bCPk3pBh84E08GnHu4xs3Mbe35jlF9qcw68AtvJD4K9sPagAOlip4A5Okc3iytL6R/7TByZaD7Y4QB0BxA==
   dependencies:
     "@hyper63/port-cache" "^1.0.0"
     "@hyper63/port-data" "1.0.8"
-    "@hyper63/port-search" "^1.0.0"
+    "@hyper63/port-search" "^1.0.1"
     "@hyper63/port-storage" "^1.0.0"
     crocks "^0.12.4"
     cuid "^2.1.8"
@@ -75,13 +75,13 @@
   dependencies:
     zod "^2.0.0-beta.22"
 
-"@hyper63/port-search@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@hyper63/port-search/-/port-search-1.0.0.tgz#a2b5d46cd3ca46451ae2e9e174e3fcdd940217dc"
-  integrity sha512-50jfVQp6v9omZiH2vPfPL3Z+PJYQzVxa37iUhcWbeKtp+IONTjx2GB1ny8Gn4MOAYcOBfdpPQWPll2nS3zH0Lw==
+"@hyper63/port-search@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@hyper63/port-search/-/port-search-1.0.1.tgz#f608e4452ebeb69d2a1993e14f6bb31c96465f52"
+  integrity sha512-6xn7XDFUIJKVDWq6jzchms3odxfd/K4gwSks9Cy64RClFlDjT9lXbPqvg/NGIbiaDVK/eyXnPQVs8uzPpyWJZQ==
   dependencies:
     crocks "^0.12.4"
-    zod "^2.0.0-beta.22"
+    zod "^3.0.0-alpha.4"
 
 "@hyper63/port-storage@^1.0.0":
   version "1.0.0"
@@ -1149,3 +1149,8 @@ zod@^2.0.0-beta.22:
   version "2.0.0-beta.29"
   resolved "https://registry.yarnpkg.com/zod/-/zod-2.0.0-beta.29.tgz#153b5ca799def7f9f6e49a925bc992f8d5793d57"
   integrity sha512-sKQv8DTkZ8WcuikGPBT/UIpXmzfmyux9RgngeCHhq9x8QUEpjxVLSY7dowNJt3eLzEl98Wa/ClKEzdc1mA4igQ==
+
+zod@^3.0.0-alpha.4:
+  version "3.0.0-alpha.4"
+  resolved "https://registry.yarnpkg.com/zod/-/zod-3.0.0-alpha.4.tgz#530efd89f292c5840f9d8b0854427948b0314649"
+  integrity sha512-pOtx1/JRT4NQ3K0wlnVAFDMY6Kvsb0xIMZvAaVzZBDUFKUS6OgZtrztcpI5NqCB4KMexcbgXgKxgpOpia9SFSw==
