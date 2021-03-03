@@ -10,9 +10,9 @@
     ramda "^0.27.1"
 
 "@hyper63/adapter-memory@^1.1.2":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@hyper63/adapter-memory/-/adapter-memory-1.1.2.tgz#6fb13660e5122f68b17c01064c3354cb9d01d508"
-  integrity sha512-VloGNS57ciHK1KpQ1vaDRM4kz26CBv6raia+B4SyO52IuSiuDWyKiMLpp5edd+LyLrkBXQRwIyrX1eUoyDLNdw==
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@hyper63/adapter-memory/-/adapter-memory-1.2.0.tgz#fd7d7745959c47931d945374e2697037faf4bd20"
+  integrity sha512-XKdiqbRtSzEhIuBIUfMrFuddAhwflq/W4U1lxq2g+9Z5J8SSLAhADJnKXXT7dp65McQ23FMrSo8KbfVvu+KiFQ==
   dependencies:
     crocks "^0.12.4"
     ramda "^0.27.1"
@@ -27,9 +27,9 @@
     ramda "^0.27.1"
 
 "@hyper63/adapter-pouchdb@^1.1.4":
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/@hyper63/adapter-pouchdb/-/adapter-pouchdb-1.1.4.tgz#3f3b0e8206d2d5ce8fb4180812e86af4dd8c9ffb"
-  integrity sha512-9bBrO48XrJiJrGJpOlbqEoYuhuXNxEk2Yetr4vcnOfXz/TdOoO5ux4vSb4eTa0WYAm2aenWQulTRHM1aWHXuqA==
+  version "1.1.8"
+  resolved "https://registry.yarnpkg.com/@hyper63/adapter-pouchdb/-/adapter-pouchdb-1.1.8.tgz#4d88883c49188b9227c2f2fd2fd38c06e3fc64df"
+  integrity sha512-FD8fJzkzANYMyVA1Kbc1OOYMxePjJWpvjyyYX1Sj+jzIXm61KWoHpaPZB4FVPS/aagTPZXNCakj0icWZ9OxVbw==
   dependencies:
     mkdirp "^1.0.4"
     pouchdb "^7.2.2"
@@ -38,9 +38,9 @@
     rimraf "^3.0.2"
 
 "@hyper63/app-express@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@hyper63/app-express/-/app-express-1.0.8.tgz#238596ca0e4633558d94da3cf9998fa708bc5421"
-  integrity sha512-Hu2Rv9OhxapWr1bSQk3tb1WHyx2VWZXbRnAvVPcSA2GW2euCijmxQklMLBh0t6rG7MJGSk5ON+ME+W+R4tSm/g==
+  version "1.0.12"
+  resolved "https://registry.yarnpkg.com/@hyper63/app-express/-/app-express-1.0.12.tgz#58eb2e050646c2144e8a4b37f4ff74d22b325de6"
+  integrity sha512-KEtWlnOO/QAQzPh8gc/KVWhSn8xVPDZJZpBiS3wlTMz54ZP8uEcwZ0DuVxaSGpMPoFXbHGdN3SnmiU2bIYKa6g==
   dependencies:
     cors "^2.8.5"
     express "^4.17.1"
@@ -48,30 +48,30 @@
     mime "^2.4.6"
     multer "^1.4.2"
 
-"@hyper63/core@^1.2.2":
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/@hyper63/core/-/core-1.2.2.tgz#d9b53a867d99b4f051ae077235a40aec475fc7b9"
-  integrity sha512-EGvT3Zb5BexLXr4U4G9217++ES/uuHAChl9fyzMf9BMJZ5/Sba+dGvbcoaC2i1zRzWifxl3ynm1xcsDlXRD/wg==
+"@hyper63/core@^1.2.10":
+  version "1.2.10"
+  resolved "https://registry.yarnpkg.com/@hyper63/core/-/core-1.2.10.tgz#6da73da87042186f8f80bb08db71ac6db7471470"
+  integrity sha512-XEEe5wplBXKOjp+yT7qs6Xwn7W6/G30h7Cxr+bgY94Lc9c/gA+xv1MEwqY4sFzMSlHxpxtx7SJ48qUpr2mZg0A==
   dependencies:
-    "@hyper63/port-cache" "^1.0.0"
-    "@hyper63/port-data" "1.0.8"
+    "@hyper63/port-cache" "^1.1.0"
+    "@hyper63/port-data" "^1.0.9"
     "@hyper63/port-search" "^1.0.1"
     "@hyper63/port-storage" "^1.0.0"
     crocks "^0.12.4"
     cuid "^2.1.8"
     ramda "^0.27.1"
 
-"@hyper63/port-cache@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@hyper63/port-cache/-/port-cache-1.0.0.tgz#71f7bb9d4b9abf085e7f77bc87333095acb9001d"
-  integrity sha512-FT3GlYLQ6Z3nb08nHvzAPg53oN3r3Khh+S4vf8shbGy5OOo7j4Pj0fW50nBUm/mqjZ8W11Dtz4elqoH5vdYIQw==
+"@hyper63/port-cache@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@hyper63/port-cache/-/port-cache-1.1.0.tgz#a7632ca8ddab58e5aab31a516b3ae81c53338dcb"
+  integrity sha512-nogZtX8C9U4l3elKINNdNVT6vwHF4dE76kQuXO3EVFW2U70rfOaGsdPbmA1m+3wz83vefAprraDnYRI8ZcsEpw==
   dependencies:
     zod "^2.0.0-beta.22"
 
-"@hyper63/port-data@1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@hyper63/port-data/-/port-data-1.0.8.tgz#b2bc12d8411c01aa378563ed109578246c12edee"
-  integrity sha512-dMcBWIlC2DPCJ7nWJdqJnukYephsgqhcF470d3n4OKprZF0uE6Uuycv786s3zWoNRRI4rxkDvw3Ukk9H6H9MYA==
+"@hyper63/port-data@^1.0.9":
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/@hyper63/port-data/-/port-data-1.0.9.tgz#863e46418be012e79870fcf4c52527bb7005db52"
+  integrity sha512-3yGMTP03pWfuUjNRG/xvKnvc2FFYVmIALpYHxTbZdCQbejCqD/1ECOJoHBLYmGXBrl52PvfANJiEqRpgOngSTw==
   dependencies:
     zod "^2.0.0-beta.22"
 
@@ -438,9 +438,9 @@ glob@^7.1.3:
     path-is-absolute "^1.0.0"
 
 helmet@^4.2.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/helmet/-/helmet-4.2.0.tgz#e81f5613cc1c90402af581794dc9878ad078b237"
-  integrity sha512-aoiSxXMd0ks1ojYpSCFoCRzgv4rY/uB9jKStaw8PkXwsdLYa/Gq+Nc5l0soH0cwBIsLAlujPnx4HLQs+LaXCrQ==
+  version "4.4.1"
+  resolved "https://registry.yarnpkg.com/helmet/-/helmet-4.4.1.tgz#a17e1444d81d7a83ddc6e6f9bc6e2055b994efe7"
+  integrity sha512-G8tp0wUMI7i8wkMk2xLcEvESg5PiCitFMYgGRc/PwULB0RVhTP5GFdxOwvJwp9XVha8CuS8mnhmE8I/8dx/pbw==
 
 http-errors@1.7.2:
   version "1.7.2"
@@ -623,17 +623,17 @@ methods@~1.1.2:
   resolved "https://registry.yarnpkg.com/methods/-/methods-1.1.2.tgz#5529a4d67654134edcc5266656835b0f851afcee"
   integrity sha1-VSmk1nZUE07cxSZmVoNbD4Ua/O4=
 
-mime-db@1.44.0:
-  version "1.44.0"
-  resolved "https://registry.yarnpkg.com/mime-db/-/mime-db-1.44.0.tgz#fa11c5eb0aca1334b4233cb4d52f10c5a6272f92"
-  integrity sha512-/NOTfLrsPBVeH7YtFPgsVWveuL+4SjjYxaQ1xtM1KMFj7HdxlBlxeyNLzhyJVx7r4rZGJAZ/6lkKCitSc/Nmpg==
+mime-db@1.46.0:
+  version "1.46.0"
+  resolved "https://registry.yarnpkg.com/mime-db/-/mime-db-1.46.0.tgz#6267748a7f799594de3cbc8cde91def349661cee"
+  integrity sha512-svXaP8UQRZ5K7or+ZmfNhg2xX3yKDMUzqadsSqi4NCH/KomcH75MAMYAGVlvXn4+b/xOPhS3I2uHKRUzvjY7BQ==
 
 mime-types@~2.1.24:
-  version "2.1.27"
-  resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.27.tgz#47949f98e279ea53119f5722e0f34e529bec009f"
-  integrity sha512-JIhqnCasI9yD+SsmkquHBxTSEuZdQX5BuQnS2Vc7puQQQ+8yiP5AY5uWhpdv4YL4VM5c6iliiYWPgJ/nJQLp7w==
+  version "2.1.29"
+  resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.29.tgz#1d4ab77da64b91f5f72489df29236563754bb1b2"
+  integrity sha512-Y/jMt/S5sR9OaqteJtslsFZKWOIIqMACsJSiHghlCAyhf7jfVYjKBmLiX8OgpWeW+fjJ2b+Az69aPFPkUOY6xQ==
   dependencies:
-    mime-db "1.44.0"
+    mime-db "1.46.0"
 
 mime@1.6.0:
   version "1.6.0"
@@ -641,9 +641,9 @@ mime@1.6.0:
   integrity sha512-x0Vn8spI+wuJ1O6S7gnbaQg8Pxh4NNHb7KSINmEWKiPE4RKOplvijn+NkmYmmRgP68mc70j2EbeTFRsrswaQeg==
 
 mime@^2.4.6:
-  version "2.4.7"
-  resolved "https://registry.yarnpkg.com/mime/-/mime-2.4.7.tgz#962aed9be0ed19c91fd7dc2ece5d7f4e89a90d74"
-  integrity sha512-dhNd1uA2u397uQk3Nv5LM4lm93WYDUXFn3Fu291FJerns4jyTudqhIWe4W04YLy7Uk1tm1Ore04NpjRvQp/NPA==
+  version "2.5.2"
+  resolved "https://registry.yarnpkg.com/mime/-/mime-2.5.2.tgz#6e3dc6cc2b9510643830e5f19d5cb753da5eeabe"
+  integrity sha512-tqkh47FzKeCPD2PUiPB6pkbMzsCasjxAfC62/Wap5qrUWcb+sFasXUC5I3gYM5iBM8v/Qpn4UK0x+j0iHyFPDg==
 
 minimatch@^3.0.4:
   version "3.0.4"
@@ -1146,9 +1146,9 @@ xtend@^4.0.0, xtend@^4.0.2, xtend@~4.0.0:
   integrity sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ==
 
 zod@^2.0.0-beta.22:
-  version "2.0.0-beta.29"
-  resolved "https://registry.yarnpkg.com/zod/-/zod-2.0.0-beta.29.tgz#153b5ca799def7f9f6e49a925bc992f8d5793d57"
-  integrity sha512-sKQv8DTkZ8WcuikGPBT/UIpXmzfmyux9RgngeCHhq9x8QUEpjxVLSY7dowNJt3eLzEl98Wa/ClKEzdc1mA4igQ==
+  version "2.0.0-beta.30"
+  resolved "https://registry.yarnpkg.com/zod/-/zod-2.0.0-beta.30.tgz#67ec3305c4a106a7bf9ef72078de72892d485dbe"
+  integrity sha512-nwCSRXRy1jt0872mMXT2E6VVHXr2hO7jGEtwc/TDqOBb7gGodwAjsQ6UCS4XJLUmjVvmqLsuPvAIN8oL26weCQ==
 
 zod@^3.0.0-alpha.4:
   version "3.0.0-alpha.4"
